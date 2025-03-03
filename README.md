@@ -50,13 +50,13 @@ You can configure the SMTP settings in your `appsettings.json`:
 **Environment Variables:**
 
 ```
-SMTPEMAILOPTIONS__SMTPSERVER=smtp.example.com
-SMTPEMAILOPTIONS__PORT=465
-SMTPEMAILOPTIONS__USERNAME=your-username
-SMTPEMAILOPTIONS__PASSWORD=your-password
-SMTPEMAILOPTIONS__ENABLESSL=true
-SMTPEMAILOPTIONS__FROMADDRESS=noreply@yourdomain.com
-SMTPEMAILOPTIONS__FROMNAME=Your Application Name
+SmtpEmailOptions__SmtpServer=smtp.example.com
+SmtpEmailOptions__Port=465
+SmtpEmailOptions__Username=your-username
+SmtpEmailOptions__Password=your-password
+SmtpEmailOptions__EnableSsl=true
+SmtpEmailOptions__FromAddress=noreply@yourdomain.com
+SmtpEmailOptions__FromName=Your Application Name
 ```
 
 **Direct Configuration in Code:**
